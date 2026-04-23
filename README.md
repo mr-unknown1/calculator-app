@@ -20,10 +20,3 @@ The debug APK is available in the `release/` folder of this repository.
 
 ### APK Download
 [Download app-debug.apk](./release/app-debug.apk)
-
-## Screenshots
-Screenshots of the Lamp tests and Calculator UI are provided in the repository.
-
-## Lab Answer
-**Hardest technical issue:** Implementing the Shunting-yard algorithm to handle operator precedence while maintaining a responsive UI state. 
-**Solution:** I used a Stack-based approach to convert the infix expression string into Postfix (RPN), ensuring that multiplication and power operations are evaluated before addition/subtraction.
